@@ -45,9 +45,15 @@ NAME Stage 3
 219,4,255
 11,1,255
 
+PAL 3
+NAME editor
+0,0,0
+255,4,226
+255,221,0
+
 ROOM 0
-e,h,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-g,0,0,0,0,0,0,1f,1a,1e,0,1e,0,0,0,0
+e,h,0,1w,0,0,0,0,0,0,0,0,0,1v,0,0
+g,0,0,0,0,0,1w,1f,1a,1e,0,1e,0,0,0,1w
 i,f,i,f,i,f,18,e,e,e,e,e,e,19,i,f
 j,k,t,u,t,d,z,17,e,e,e,e,1d,13,w,j
 e,11,u,v,r,0,0,x,e,e,n,e,11,0,x,e
@@ -60,61 +66,69 @@ e,11,0,q,s,u,t,v,t,d,0,d,0,0,z,10
 e,12,d,0,0,0,0,u,r,0,r,0,0,0,d,0
 14,13,0,0,0,d,0,0,q,s,q,s,r,d,w,j
 j,k,0,0,d,0,0,0,0,r,u,t,q,s,x,e
-e,l,j,k,0,0,d,0,0,q,s,u,t,0,y,n
-n,e,e,l,m,d,0,u,t,u,t,u,d,d,x,e
+e,l,j,k,0,0,d,0,0,q,s,u,t,v,y,n
+n,20,e,l,m,d,0,u,t,u,t,u,d,d,x,e
 NAME Room 1
 ITM 1 8,13
 ITM 1 2,5
 ITM 1 13,4
-EXT 15,11 1 0,11
+ITM 9 5,3
 PAL 1
 
 ROOM 1
-0,0,0,0,0,0,0,o,g,0,0,0,0,0,0,0
-0,0,0,0,r,1a,0,0,0,0,0,0,0,0,0,0
-f,i,f,18,e,e,19,i,f,i,f,i,f,i,f,i
+0,1t,0,1t,1v,0,0,o,g,0,1v,0,0,0,1w,0
+1w,1t,0,1t,r,1a,0,0,0,0,0,0,0,1v,0,0
+f,i,1s,18,e,e,19,i,f,i,f,i,f,i,f,i
 t,0,d,z,10,14,13,d,0,r,d,0,w,j,j,j
 j,k,0,0,0,v,t,u,d,q,s,0,x,e,e,e
-e,12,0,d,d,0,0,r,0,0,d,d,x,e,e,n
-e,11,d,r,0,u,t,q,s,d,t,0,z,17,e,e
-e,12,d,q,s,0,0,0,0,0,v,0,0,x,e,e
-e,11,0,0,d,d,w,j,j,0,u,0,d,z,17,e
-14,13,d,0,0,w,15,e,e,16,k,u,0,d,x,e
-d,0,0,d,w,15,e,e,e,e,16,k,d,0,z,14
+e,12,0,d,d,0,0,r,0,0,d,d,x,e,e,23
+e,11,d,r,0,u,t,q,s,d,u,0,z,17,e,22
+e,12,d,q,s,0,0,0,0,0,v,0,0,x,e,22
+e,11,0,0,d,d,w,j,j,0,u,0,d,z,17,22
+14,13,d,0,0,w,15,e,e,16,k,0,0,d,x,22
+d,0,0,d,w,15,e,e,e,e,16,k,d,0,z,24
 0,0,d,0,y,e,e,e,e,e,e,16,k,d,d,0
 j,k,0,0,x,e,e,e,n,e,e,e,11,0,w,j
-e,16,j,k,z,17,e,e,e,e,e,e,16,j,15,e
+e,16,j,u,v,17,e,e,e,e,e,e,16,j,15,e
 e,e,e,16,k,z,17,e,e,e,e,e,e,e,e,e
-n,e,e,e,16,k,z,17,e,e,e,e,e,e,n,e
+n,e,e,20,16,k,z,17,e,e,e,20,e,20,n,e
 NAME room 2
 ITM 1 3,12
 ITM 1 2,4
-ITM 1 8,7
 ITM 1 11,3
-EXT 15,11 2 0,6
+ITM 9 7,3
+EXT 2,0 5 3,15 FX slide_u
 PAL 0
 
 ROOM 2
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,p,e
-1a,1f,1e,0,0,0,0,0,0,0,0,0,0,0,0,o
+0,0,1w,0,0,0,1w,0,0,1v,0,0,0,1w,p,e
+1a,1f,1e,0,0,1v,0,0,0,0,0,1w,0,1v,1w,o
 e,e,e,19,i,f,i,f,i,f,i,f,i,f,i,f
 n,e,1d,13,w,j,k,d,0,v,d,d,w,0,0,0
-e,1d,13,w,15,e,16,k,u,t,v,w,15,0,1c,0
+e,1d,v,t,15,e,16,k,u,t,v,w,15,0,1c,0
 14,13,0,x,e,e,e,12,0,0,d,x,e,0,1c,0
 0,d,0,y,e,e,e,11,0,d,0,y,e,0,0,0
-l,k,d,z,14,10,14,13,0,0,r,z,17,e,e,e
-e,11,0,0,d,d,0,0,0,d,q,s,z,14,17,e
-e,12,0,r,0,0,u,t,r,0,0,0,u,t,z,17
-e,12,d,q,s,0,0,r,q,s,0,d,0,0,0,x
-e,16,k,0,0,d,t,q,s,d,0,0,d,0,0,z
-e,e,11,0,d,0,0,0,0,d,w,j,k,d,1b,1b
+1y,k,d,z,14,10,14,13,0,0,r,z,17,e,e,e
+1z,11,0,0,d,d,0,0,0,d,q,s,z,14,17,e
+1z,12,0,r,0,0,u,t,r,0,0,0,u,t,z,17
+1z,12,d,q,s,0,0,r,q,s,0,d,0,0,0,x
+1z,16,k,0,0,d,t,q,s,d,0,0,d,0,0,z
+21,e,11,0,d,0,0,0,0,d,w,j,k,d,1b,1b
 e,e,16,k,0,d,0,u,t,w,15,e,12,u,t,w
-n,n,e,12,0,0,d,0,w,15,e,e,12,d,w,15
-e,e,e,11,0,d,d,0,y,e,n,e,12,w,15,e
+e,n,e,12,0,0,d,0,w,15,e,e,12,d,w,15
+e,e,e,11,0,d,d,0,y,e,n,20,12,w,15,20
 NAME room 3
 ITM 1 6,10
 ITM 1 10,6
 ITM 1 7,15
+ITM 4 14,15
+ITM 5 15,15
+ITM 6 7,0
+ITM 7 4,0
+ITM 8 3,1
+ITM 8 8,1
+ITM 8 11,0
+ITM 7 12,1
 END 7 13,12
 PAL 2
 
@@ -171,6 +185,28 @@ ITM 3 11,13
 ITM 3 13,12
 ITM 3 0,7
 PAL 2
+
+ROOM 5
+0,1u,0,0,0,0,0,0,0,1v,0,0,1u,0,0,0
+1u,0,0,0,0,0,0,0,0,0,1v,0,0,1u,0,0
+0,0,1v,0,0,0,0,1u,0,1w,0,1u,0,0,1u,0
+0,0,0,0,1u,0,0,0,0,1v,0,1w,0,1u,0,1u
+0,0,1w,0,0,0,0,0,0,0,1w,0,0,0,1v,0
+0,1u,0,0,0,0,0,0,0,0,0,0,0,1w,0,1v
+0,0,0,0,0,0,1u,0,0,0,0,0,0,0,1w,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,1u,0,1v
+0,0,1u,0,0,0,0,0,0,0,0,1u,0,0,0,0
+0,0,0,0,0,1u,0,0,1u,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,1w,0,0,1u,0,0
+0,0,0,0,0,0,0,0,0,1v,0,0,0,0,0,1u
+0,0,1u,0,0,0,0,0,0,0,0,1w,0,0,0,0
+0,0,0,0,1u,0,0,1w,0,0,0,1u,0,1u,0,0
+0,0,1u,0,0,1u,0,0,1v,1u,0,1v,0,0,0,0
+1v,1w,1v,0,1v,1w,1w,1v,1v,1w,1v,1v,1w,1w,1v,1w
+NAME Secret
+EXT 3,15 1 2,0 FX slide_d
+END c 15,0
+PAL 3
 
 TIL 10
 11111111
@@ -381,6 +417,106 @@ TIL 19
 NAME FLOATL
 WAL true
 
+TIL 20
+11111111
+11111111
+11111111
+11111111
+11111111
+10000001
+01111110
+10000001
+>
+11111111
+11111111
+11111111
+11111111
+10000001
+01111110
+10000001
+00000000
+WAL true
+
+TIL 21
+00101111
+00101111
+00101111
+00101111
+00101111
+11011111
+00111111
+11111111
+>
+00010111
+00010111
+00010111
+00010111
+00010111
+00010111
+11101111
+00011111
+WAL true
+
+TIL 22
+11110100
+11110100
+11110100
+11110100
+11110100
+11110100
+11110100
+11110100
+>
+11101000
+11101000
+11101000
+11101000
+11101000
+11101000
+11101000
+11101000
+WAL true
+
+TIL 23
+11111111
+11111111
+11111100
+11111011
+11110100
+11110100
+11110100
+11110100
+>
+11111111
+11111000
+11110111
+11101000
+11101000
+11101000
+11101000
+11101000
+WAL true
+
+TIL 24
+11110100
+01110100
+10110100
+01001000
+00110000
+00000000
+00000000
+00000000
+>
+01101000
+10101000
+01001000
+00110000
+00000000
+00000000
+00000000
+00000000
+WAL true
+
 TIL d
 00000000
 00011000
@@ -418,17 +554,17 @@ TIL f
 00000000
 00000000
 11001111
+11111111
 00110000
-00000000
 00000000
 00000000
 >
 00000000
-00000000
-00110000
-11001001
+00100000
+11111000
+11011001
+00001111
 00000110
-00000000
 00000000
 00000000
 NAME top W1
@@ -460,18 +596,18 @@ TIL i
 00000000
 00000000
 00001110
-10010001
+10011111
+11110001
 01100000
-00000000
 00000000
 00000000
 >
 00000000
 00000000
 01100000
-10010011
+11110011
+10011111
 00001100
-00000000
 00000000
 00000000
 NAME top W2
@@ -1106,25 +1242,221 @@ TIL 1r
 00000000
 00000000
 
-SPR A
+TIL 1s
 00000000
 00000000
-01111000
-00100100
+00100000
+11111000
+11011001
+00001111
+00000110
+00000000
+>
+00000001
+00000000
+00000000
+00000000
+11001111
 11111111
-11000110
-01111100
+00110000
+00000000
+NAME secret
+
+TIL 1t
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+NAME blockade
+WAL true
+
+TIL 1u
+00000000
+00000010
+00000101
+01000010
+00000000
+00000000
+00001000
 00000000
 >
 00000000
-01111000
+00000000
+01000010
+10100000
+01000000
+00001000
+00010100
+00001000
+NAME stars
+
+TIL 1v
+00000000
+00000000
+00000000
+00111000
+11111110
+11111110
+00110000
+00000000
+>
+00000000
+00000000
+00111100
+01111111
+01111111
+00111000
+00000000
+00000000
+NAME cloud one
+WAL false
+
+TIL 1w
+00110000
+11111000
+11111100
+11110001
+00000111
+00001111
+00001111
+00000000
+>
+00000000
+01100000
+11110000
+11111000
+11100011
+00001111
+00011111
+00011111
+NAME cloud 25
+WAL false
+
+TIL 1x
+00010000
+01101000
+00000010
+01000000
+00000110
+00000110
+00011100
+00011100
+>
+00000000
+00000000
+00011100
+00111100
+00111100
+00011000
+00000000
+00000000
+WAL true
+
+TIL 1y
+00000000
+00000000
+00011000
 00100100
+00101010
+00101101
+00101110
+00101111
+>
+00000000
+00000000
+00000000
+00011000
+00010100
+00010010
+00010101
+00010110
+WAL true
+
+TIL 1z
+00101111
+00101111
+00101111
+00101111
+00101111
+00101111
+00101111
+00101111
+>
+00010111
+00010111
+00010111
+00010111
+00010111
+00010111
+00010111
+00010111
+WAL true
+
+SPR 10
+00010000
+00111100
+01111010
+01000110
+01111110
+00111100
+00000000
+00000000
+>
+00010000
+00111100
+01111010
+01000110
+00111100
+00000000
+00000000
+00000000
+DLG k
+POS 1 15,11
+
+SPR 11
+00010000
+00111100
+01111010
+01000110
+01111110
+00111100
+00000000
+00000000
+>
+00010000
+00111100
+01111010
+01000110
+00111100
+00000000
+00000000
+00000000
+DLG l
+POS 0 15,11
+
+SPR A
+00000000
+01110000
+01110000
+00100100
+00110110
 11111111
-11000110
+11101110
+01111100
+>
+11100000
+11100000
+01000100
+01100110
+11111111
+11010110
 01111100
 00000000
-00000000
-POS 0 2,13
+POS 0 1,13
 
 SPR d
 00000000
@@ -1145,7 +1477,7 @@ SPR d
 01111110
 00000000
 DLG 3
-POS 0 3,12
+POS 0 6,11
 
 SPR e
 11000000
@@ -1343,6 +1675,146 @@ SPR s
 00001000
 POS 0 12,1
 
+SPR t
+00011000
+00011000
+01111110
+11111111
+11111111
+00011000
+00011000
+00011000
+>
+00000000
+00011000
+00011000
+01111110
+11111111
+11111111
+11011011
+00011000
+DLG 9
+POS 5 3,11
+
+SPR u
+00100100
+00111100
+00011000
+00111100
+01111110
+11111111
+00011000
+00011000
+>
+00000000
+00100100
+00111100
+00011000
+00111100
+01111110
+11111111
+00011000
+NAME devil?
+DLG a
+POS 5 12,5
+
+SPR v
+00011000
+00000000
+00011000
+00011000
+01111110
+11111111
+00011000
+00011000
+>
+00011000
+00000000
+00000000
+00011000
+00011000
+01111110
+11111111
+11011011
+NAME angel?
+DLG b
+POS 5 3,5
+
+SPR w
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+10000000
+DLG d
+POS 5 14,12
+
+SPR x
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+DLG e
+POS 5 0,0
+
+SPR y
+00000000
+00000000
+01111011
+01110011
+00000000
+00011110
+00011100
+00000000
+>
+00000000
+00000000
+00000000
+11110111
+11100111
+00000000
+00111100
+00111000
+DLG g
+POS 0 5,15
+
+SPR z
+00110110
+00001001
+11101001
+11100110
+00000000
+00011100
+00011000
+00000000
+>
+00000000
+00110000
+00001100
+11010010
+11010010
+00001100
+01110000
+01100000
+DLG i
+POS 0 6,15
+
 ITM 1
 00000000
 00011000
@@ -1405,29 +1877,105 @@ ITM 3
 NAME visual 3
 
 ITM 4
+11111111
+11111111
+11000000
+11000000
+11000000
+11001110
+11000000
+11000000
+
+ITM 5
+11111111
+11111111
 00000000
 00000000
 00000000
-00000000
-00000000
-00000000
+00111110
 00000000
 00000000
 
-DLG 1
-You found a nice warm cup of tea
-NAME tea dialog
+ITM 6
+00000000
+00000000
+00011000
+00111100
+00111100
+00011000
+00000000
+00000000
 
-DLG 2
-You gained 10 movement
-NAME fuel dialog
+ITM 7
+00000000
+00000100
+01001010
+00000100
+00000000
+00100000
+01010100
+00100000
+>
+00000000
+01000000
+10100100
+01000000
+00000000
+00000100
+00101010
+00000100
+NAME star item 1
+DLG f
+
+ITM 8
+00000000
+00000100
+00001010
+00000100
+00000000
+01000000
+00000000
+00000000
+>
+00000000
+00000000
+00000100
+00000000
+01000000
+10100000
+01000000
+00000000
+NAME star item 2
+
+ITM 9
+01100010
+01011001
+01010100
+01010110
+01011110
+01110100
+01011000
+01100000
+>
+01100001
+01011000
+01110100
+01011110
+01010110
+01010100
+01011000
+01100000
+NAME Drill
+DLG j
 
 DLG 3
 """
 {sequence
-  - Make it back to the mainland to get help, and try to save as many crew members {printItem "1"} along the way!
+  - We need you to head back and send a helicopter for help!
+    Also, try to save as many crew members {printItem "1"} along the way!
   - Hurry up, don't want to waste daylight!
-  - Seriously... get going we are counting on you.
+  -  Seriously... get going we are counting on you...
+  - {clr2}{shk}GET TO THE CHOPPA{shk}{clr2}
 }
 """
 NAME sprite d dialog
@@ -1435,22 +1983,129 @@ NAME sprite d dialog
 DLG 6
 """
 {
-  - {item "Crew"} <= 3 ?
+  - {item "Crew"} <= 5 ?
     There isn't many of you on the ship... Did you even care?
   - else ?
     Your boat is pretty full, you must have most of your crew.
 }
 {pg}
-Dock right here, and we'll send out a rescue squad for the rest.
+Dock DOWN here, and we'll send out a rescue squad for the rest.
 """
 NAME sprite o dialog
 
 DLG 7
-You made it to civilization, and your crew will be rescued!
+"""
+{
+  - {item "Crew"} <= 5 ?
+    You made it... But the crew deserved a better from you.
+  - else ?
+    You made it to civilization! You are a hero amongst the crew!
+}
+"""
+NAME Main End
 
 DLG 8
 {wvy}{shk}Thank You For Saving Me!!{shk}{wvy}
 NAME visual 1 dialog
+
+DLG 9
+"""
+{sequence
+  - And thus you have found this place...
+  - Be careful who you trust, here, not is all as it seems.
+}
+"""
+NAME Angel
+
+DLG a
+"""
+{sequence
+  - You should return to your world, there is nothing for you here...
+  - {shk}GO NOW!{shk}
+}
+"""
+NAME devil? dialog
+
+DLG b
+"""
+{sequence
+  - This land is wonderous, ascend to the North East Stars, there you will be welcomed.
+  - This land is wonderous, ascend to the North East Stars, there you will be welcomed.....
+  - This land is wonderous, ascend to the North East Stars, there you will be welcomed.........
+  - {shk} for eternity{shk}
+}
+"""
+NAME angel? dialog
+
+DLG c
+"""
+Should I have listened to the angel...
+{pg}
+Or was it just something else in disguise...
+I feel much lighter here.. amongst the stars...
+"""
+NAME Secret ending
+
+DLG d
+That is no angel... do not be fooled by its tricks.
+NAME sprite w dialog
+
+DLG e
+This project seriously deserves an A
+NAME sprite x dialog
+
+DLG f
+hey you can't take that!
+NAME star item 1 dialog
+
+DLG g
+"""
+{sequence
+  - Reckage from the ship...
+  - No use mulling over it. It's in the past, I must press forward.
+}
+"""
+NAME sprite y dialog
+
+DLG h
+nothing useful here, I need to move on...
+NAME sprite z dialog
+
+DLG i
+There's nothing useful here, I must move on.
+NAME sprite z dialog 1
+
+DLG j
+This may help me forward
+NAME item 9 dialog
+
+DLG k
+"""
+{
+  - {item "Drill"} < 1 ?
+    Ugh another rock, there must be another tool nearby...
+  - else ?
+    {shk}*CRUNCH*{shk}
+    {item "Drill" {{item "Drill"} - 1}}
+    {exit "2" 0 6 "slide_r"}
+}
+"""
+NAME sprite 10 dialog
+
+DLG l
+"""
+{
+  - {item "Drill"} == 0 ?
+    There's gotta be a way through this...
+  - else ?
+    {shk}*CRUNCH*{shk}
+    {pg}
+    You've broken through the rock!
+    {item "Drill" {{item "Drill"} - 1}}
+    {exit "1" 0 11 "slide_r"}
+}
+"""
+NAME sprite 11 dialog
 
 VAR a
 42
